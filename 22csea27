@@ -1,0 +1,67 @@
+#Return the full name of the Person( first name, last name) using function
+fname = input("Input your First Name : ")
+lname = input("Input your Last Name : ")
+print (fname+''+ lname)
+
+output
+Input your First Name : swetha
+Input your Last Name : rameshwar
+Swetharameshwar
+
+#write a python program to convert time hours into minutes
+def convertion(hour):
+minute=hour*60
+return minute
+a=int(input(&quot;enter time in hour:&quot;))
+print(convertion(a))
+output
+enter time in hour:7
+420
+
+#Print the area and Perimeter of Square  using Function
+
+def minimum(a, b):
+      
+    if a <= b:
+        return a
+    else:
+        return b
+a=int(input('enter a'))
+b=int(input('enter b'))
+print(minimum(a,b))
+output:
+enter a5
+enter b8
+5
+
+#check the relationship between two numbers( > ,< or = ) using function 
+def relation(no1,no2):
+    x=no1>no2
+    y=no1<no2
+    z=no1==no2
+    return x,y,z
+a=int(input("enter the first number:"))
+b=int(input("enter the second number:"))
+print(relation(a,b))
+output:
+enter the first number:3
+enter the second number:7
+(False, True, False)
+
+#define a function to find the min of two numbers
+def minimum(x,y):
+
+    z=min(x,y)
+
+    return z
+
+a=int(input("enter the first number:"))
+
+b=int(input("enter the second number:"))
+
+print(minimum(a,b))
+output:
+enter the first number:8
+enter the second number:6
+6
+
